@@ -1,0 +1,21 @@
+{
+  "name": "simple-hangman",
+  "version": "1.0.0",
+  "description": "Simple hangman game in vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Shlok Desai",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "jasmine": "^2.7.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
